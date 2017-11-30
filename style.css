@@ -1,5 +1,67 @@
 /* source https://medium.com/@ckor/make-full-screen-sections-with-1-line-of-css-b82227c75cbd */
 
+#logo{
+    max-width: 25vh;
+}
+
 .section {
     height: 100vh;
+}
+
+h1 {
+    font-family: 'Courier New', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 280%;
+    text-decoration:none;
+	text-shadow:0px 1px 8px #000000;
+}
+
+/* source https://www.bestcssbuttongenerator.com/ */
+.myButton {
+	background-color:#fff9b2;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:6px solid #fff9b2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+    font-size:20px;
+    color: rgb(32, 32, 32);
+	padding:14px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 8px #000000;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* ================================================ */
+
+
+#section_1{
+    background-image: url('/Users/socialimpact/wdi/labs/myPortfolioPage/images/backdrop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+footer {
+    background: rgba(56, 56, 56, 0.404);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer.div{
+    max-width: 50px
 }
