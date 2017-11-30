@@ -45,7 +45,7 @@ h1 {
 
 
 #section_1{
-    background-image: url('/Users/socialimpact/wdi/labs/myPortfolioPage/images/backdrop.jpg');
+    background-image: url('/images/backdrop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
